@@ -1,5 +1,4 @@
-if (get_application_name()=='java') and get_window_class() == 'Eclipse' then
-    set_window_name('Eclipse Console')
+if get_application_name()=='java' then
     set_skip_pager(false)
 end
 
